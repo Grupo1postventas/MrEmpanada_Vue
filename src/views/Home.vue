@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <Carousel />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import Carousel from '../components/Carousel'
 
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
+      Carousel,
     },
   }
 </script>
