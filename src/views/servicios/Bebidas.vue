@@ -1,5 +1,5 @@
 <template>
   <div class="bebidas">
-    <h1>Hola, soy el apartado de bebidas</h1>
+    <h1>Lista de bebidas (disponible próximamente)</h1>
   </div>
 </template>

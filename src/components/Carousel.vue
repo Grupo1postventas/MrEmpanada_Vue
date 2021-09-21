@@ -14,9 +14,6 @@
       return {
         items: [
           {
-            src: require("../assets/g1.png"),
-          },
-          {
             src: require("../assets/imgP2.png"),
           },
           {

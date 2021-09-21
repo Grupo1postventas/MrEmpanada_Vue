@@ -50,21 +50,31 @@
           </v-btn>
         </v-card-text>
 
-        <v-card-text class="white--text pt-0">
-          Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-          Mauris cursus commodo interdum. Praesent ut risus eget metus luctus
-          accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim
-          a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula
-          lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus
-          iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum
-          tempor vel ut orci. Orci varius natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus.
-        </v-card-text>
+        <b-row>
+        <b-col cols="12" md="6">
+        <h4> Motivanción del desarrollo del proyecto:</h4>
+        Este proyecto ha sido realizado con carácter educativo y de aprendizaje de sus participantes, con el fin de desarrollar habilidades en metodología SCRUM, y desarrollos en HTML, CSS, Javascript y frameworks como Bootstrap y Vue.
+        <br><br>
+        <a href="https://github.com/Grupo1postventas" target="blank">Enlace Repositorio en Git-Hub</a>
+        </b-col>
 
+        <b-col>
+        <article class="white--text pt-0">
+          <h4>Información de Contacto:</h4>
+        <p> <b>
+                <a href="mailto: buitragolopezyeison@gmail.com">Product Owner : Yeison Buitrago</a><br>
+                <a href="mailto: fredyospina119@gmail.com">Scrum Master: Jhon Fredy Ospina</a><br>
+                <a href="mailto: marioaa25@gmail.com"> Develop Team: Mario Acosta</a><br>
+                <br>
+            </b> </p>
+        </article>
+        </b-col>
+        </b-row>
         <v-divider></v-divider>
 
         <v-card-text class="white--text">
-          {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+          <h6>Carrera 36# 4B-31 Barrio San Fernando Cali, Colombia</h6>
+          {{ new Date().getFullYear() }} — <strong>Mr.Empanada</strong>
         </v-card-text>
       </v-card>
     </v-footer>
@@ -72,14 +82,16 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      icons: [
-        'mdi-facebook',
-        'mdi-twitter',
-        'mdi-linkedin',
-        'mdi-instagram',
-      ],
-    }),
-  }
+export default {
+  data: () => ({
+    icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
+  }),
+};
 </script>
+
+<style>
+article {
+  display: flex !important;
+  justify-content: space-evenly;
+}
+</style>
