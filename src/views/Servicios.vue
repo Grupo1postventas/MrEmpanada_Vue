@@ -6,7 +6,7 @@
       <b-col cols="12" md="4">
         <b-card
           title="Combos"
-          img-src="https://picsum.photos/600/300/?image=25"
+          :img-src="require('../assets/servicio1.png')"
           img-alt="Image"
           img-top
           tag="article"
@@ -14,8 +14,7 @@
           class="mb-2"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Haz un pedido rápido con el combo que más se adecúe a tus necesidades.
           </b-card-text>
 
           <b-button href="/servicios/combos" variant="primary">Ir a Combos</b-button>
@@ -25,7 +24,7 @@
       <b-col cols="12" md="4">
         <b-card
           title="Empanadas"
-          img-src="https://picsum.photos/600/300/?image=25"
+          :img-src="require('../assets/servicio2.png')"
           img-alt="Image"
           img-top
           tag="article"
@@ -33,8 +32,7 @@
           class="mb-2"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Elige entre nuestra gran variedad de empanadas y explora sus sabores.
           </b-card-text>
 
           <b-button href="/servicios/empanadas" variant="primary">Ir a Empanadas</b-button>
@@ -44,7 +42,7 @@
       <b-col cols="12" md="4">
         <b-card
           title="Bebidas"
-          img-src="https://picsum.photos/600/300/?image=25"
+          :img-src="require('../assets/servicio3.png')"
           img-alt="Image"
           img-top
           tag="article"
@@ -52,8 +50,7 @@
           class="mb-2"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Acompaña tu pedido con una de nuestras refrescantes bebidas.
           </b-card-text>
 
           <b-button href="/servicios/bebidas" variant="primary">Ir a Bebidas</b-button>
